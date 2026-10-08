@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel da Rodoviária</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+        <h1>RODOVIÁRIA CENTRAL</h1>
+        <div id="relogio"></div>
+        <div id="clima">Carregando clima...</div>
+        <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+            <tr>
+                <th>HORÁRIO</th>
+                <th>DESTINO</th>
+                <th>PLATAFORMA</th>
+                <th>STATUS</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>00:15</td>
+                    <td>MINAS NOVAS</td>
+                    <td>01</td>
+                    <td class="status-confirmado">CONFIRMADO</td>
+                </tr>
+                <tr>
+                    <td>00:45</td>
+                    <td>SÃO PAULO</td>
+                    <td>02</td>
+                    <td class="status-embarque">EMBARCANDO</td>
+                </tr>
+                <tr>
+                    <td>01:15</td>
+                    <td>RIO DE JANEIRO</td>
+                    <td>03</td>
+                    <td class="status-atrasado">ATRASADO</td>
+                </tr>
+                <tr>
+                    <td>02:30</td>
+                    <td>BELO HORIZONTE</td>
+                    <td>04</td>
+                    <td class="status-previsto">PREVISTO</td>
+                </tr>
+
+        </tbody>
+        </table>
+
+    <div class="container-midia">
+    
+    <!-- Bloco 1: Vídeo da Propaganda -->
+    <video src="propaganda_onibus.mp4" class="propaganda" autoplay loop muted playsinline></video>
+
+    <!-- Bloco 2: Bloco de Notícias-->
+   <div class="bloco-noticias">
+    <h2>ÚLTIMAS NOTÍCIAS</h2>
+
+    <div class="letreiro-container">
+        <div class="letreiro-texto">
+            Previsão de chuva forte para as próximas horas na região • Brasil vence a Austrália por 4 a 2 em amistoso internacional! • Use sempre o cinto de segurança durante toda a viagem • Garanta sua passagem antecipada no app RotaHorizonte! •
+        </div>
+    </div>
+</div>
+</div> 
+
+<script src="script.js"></script>
+</header>
+</body>
+</html>

@@ -1,0 +1,188 @@
+body {
+     background-color: #0b0f19;
+    color: #ffffff;
+    font-family: monospace;
+    padding: 20px;
+    
+    
+    box-sizing: border-box; 
+    overflow-x: hidden;    
+}
+
+
+table {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+th, td {
+    text-align: left;
+    padding: 12px;
+}
+
+h1 {
+    color: #ff9900;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.status-confirmado {
+    color: #00ff66;
+}
+
+.status-embarque {
+    color: #ffcc00;
+}
+
+.status-atrasado {
+    color: #ff3333;
+}
+
+.status-previsto {
+    color: #00ccff;
+}
+
+table {
+    font-size: 20px;
+    width: 100%;
+}
+
+/*Ajuste na propaganda para encaixar ao lado das notiçias */
+.propaganda {
+    flex: 1;
+    height: 100%;
+    
+    object-fit: cover; 
+    object-position: center top; 
+    border: 3px solid #ff9900;
+    box-sizing: border-box;
+    
+    
+    padding: 10px; 
+    background-color: #0b111e; 
+}
+
+/* Caixa que junta o video e as noticias*/
+.container-midia {
+    display: flex;          
+    flex-direction: row;    
+    width: 100%;    
+    max-width: 100%;        
+    height: 280px;          
+    gap: 20px;              
+    box-sizing: border-box;
+    margin-top: 15px;     
+}
+
+/*Visual do Bloco de Noticias*/
+.bloco-noticias {
+   flex: 1;                
+    height: 100%;           
+    border: 3px solid #0055ff; 
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #0b111e; 
+}
+
+.bloco-noticias h2 {
+    margin: 0 0 15px 0;
+    color: #00ccff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 5px;
+}
+
+.letreiro-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap; 
+    padding: 10px 0;
+    margin-top: 10px;
+    background: rgba(0, 85, 255, 0.1); 
+    border-radius: 4px;
+}
+
+.letreiro-texto {
+    display: inline-block;
+    padding-left: 100%; 
+    padding-right: 50px;
+    font-size: 18px;    
+    color: #cbd5e1;     
+    line-height: 1.4;
+    animation: rolarNoticias 25s linear infinite; 
+}
+
+
+@keyframes rolarNoticias {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-100%, 0, 0); 
+    }
+}
+
+/*Visual Relogio e Temperatura*/
+#relogio {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#clima{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* Cria as linhas horizontais embaixo de cada linha da tabela */
+table th, table td {
+    border-bottom: 2px solid #334155; 
+    padding: 15px 0;                 
+    text-align: left;                
+}
+
+/* Define as cores exatas para cada status que você colocou no HTML */
+.status-confirmado {
+    color: #a3e635; 
+    font-weight: bold;
+}
+
+.status-embarque {
+    color: #f97316; 
+    font-weight: bold;
+}
+
+.status-atrasado {
+    color: #ef4444; 
+    font-weight: bold;
+}
+
+.status-previsto {
+    color: #38bdf8; 
+    font-weight: bold;
+}
+
+/* Centraliza o título "PLATAFORMA" no cabeçalho */
+table th:nth-child(3) {
+    text-align: center;
+}
+
+/* Centraliza os números das plataformas (01, 02, 03, 04) */
+table td:nth-child(3) {
+    text-align: center;
+}
+
+/* Centraliza o título "HORÁRIO" no cabeçalho */
+table th:nth-child(1) {
+    text-align: center;
+}
+
+/* Centraliza as horas (00:15, 00:45, etc.) */
+table td:nth-child(1) {
+    text-align: center;
+}
+
+
