@@ -79,12 +79,13 @@ table {
 
 /*Visual do Bloco de Noticias*/
 .bloco-noticias {
-   flex: 1;                
+   flex: 2;                
     height: 100%;           
     border: 3px solid #0055ff; 
     box-sizing: border-box;
     padding: 15px;
     background-color: #0b111e; 
+    min-width: 0; 
 }
 
 .bloco-noticias h2 {
