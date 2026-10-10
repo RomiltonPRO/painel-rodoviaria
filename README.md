@@ -6,9 +6,7 @@ Breve descrição sobre o que o seu Painel Rodoviário faz, qual o objetivo do p
 
 ## 📱 Demonstração
 
-<p align="center">
-  <img src="images/preview.png" alt="Demonstração do Painel" width="700px">
-</p>
+![Demonstração do Painel](https://githubusercontent.com)
 
 ## ✨ Funcionalidades
 
@@ -20,9 +18,9 @@ Breve descrição sobre o que o seu Painel Rodoviário faz, qual o objetivo do p
 
 Para o desenvolvimento deste painel, foram utilizadas as seguintes tecnologias fundamentais da web:
 
-![HTML5](https://shields.io)
-![CSS3](https://shields.io)
-![JavaScript](https://shields.io)
+* **HTML5**
+* **CSS3**
+* **JavaScript**
 
 ## 🚀 Como executar o projeto
 
@@ -42,6 +40,5 @@ Depois de clonar, basta abrir o arquivo principal (`index.html`) diretamente no 
 
 Desenvolvido por **Romilton Gouveia** — Sinta-se à vontade para entrar em contato!
 
-[![LinkedIn](https://shields.io)](https://linkedin.com)
-[![GitHub](https://shields.io)](https://github.com/RomiltonPRO)
-
+* [Meu LinkedIn](https://linkedin.com)
+* [Meu GitHub](https://github.com)
